@@ -11,7 +11,7 @@ By customizing **MID Server capabilities** and restricting to **WMI/WinRM protoc
 ---
 
 ## Visual Representation  
-
+```plaintext
 +-----------------+ +-------------------+
 | ServiceNow | | MID Server |
 | Discovery Engine| ---------> | Windows Protocols |
@@ -29,6 +29,7 @@ v
  |  ❌ Skipped (No SSH/SNMP)    |
  +---------------------+
 
+```
 ## Key Steps Performed  
 
 1. **Discovery Schedule Setup**  
